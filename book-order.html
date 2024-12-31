@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astha Studio - Book Order</title>
+
+    <!-- swiper css linked hare  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- akar icon cdn linked hare  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/akar-icons-fonts/1.1.22/css/akar-icons.css"
+        integrity="sha512-xM54SoWdWHNrNSYzPt1Wfsg5dyaIk0e7/biNh0jIR+pdaoWLfEAs50ig7ysS0ywbN79lrAow53uHtK3joebijA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- main css linked hare  -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- header section starts hare  -->
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+
+
+            <div class="links" id="links">
+                <div class="cross">
+                    <i class="ai-cross"></i>
+                </div>
+                <a href="index.html">home</a>
+                <a href="gallery.html">gallery</a>
+                <a href="our-work.html">our work</a>
+                <a href="contact.html">contact us</a>
+                <a href="book-order.html">book order</a>
+            </div>
+            <div class="menu-icon">
+                <i class="ai-text-align-right"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- header section ends hare  -->
+
+    <!-- book order section starts hare  -->
+
+    <div class="book-order">
+        <div class="order input-box">
+            <h1 class="heading">
+                book order
+            </h1>
+            <form action="#">
+                <div class="box-container">
+                    <div class="box">
+                        <label for="firstname">first name</label>
+                        <input type="text" id="firstname" placeholder="enter first name">
+                    </div>
+                    <div class="box">
+                        <label for="lastname">last name</label>
+                        <input type="text" id="lastname" placeholder="enter last name">
+                    </div>
+                    <div class="box">
+                        <label for="number">mobile number</label>
+                        <input type="text" id="number" placeholder="enter mobile number">
+                    </div>
+                    <div class="box">
+                        <label for="email">email address</label>
+                        <input type="email" id="email" placeholder="enter email address">
+                    </div>
+                    <div class="box">
+                        <label for="type">shoot type</label>
+                        <select name="type" id="type">
+                            <option disabled selected value="select type">select type</option>
+                            <option value="wedding shoot">wedding shoot</option>
+                            <option value="birthday shoot">birthday shoot</option>
+                            <option value="photo shoot">photo shoot</option>
+                            <option value="video shoot">video shoot</option>
+                        </select>
+                    </div>
+                    <div class="checkbox-container" id="checkboxContainer">
+                        
+                    </div>
+                    <div class="box">
+                        <label for="country">country</label>
+                        <select name="country" id="country">
+                            
+                        </select>
+                    </div>
+                    <div class="box">
+                        <label for="state">state</label>
+                        <select disabled name="state" id="state">
+                            <option disabled selected value="select type">select state</option>
+                        </select>
+                    </div>
+                    <div class="box">
+                        <label for="city">city</label>
+                        <select disabled name="city" id="city">
+                            <option disabled selected value="select type">select city</option>
+                        </select>
+                    </div>
+
+                    <div class="box">
+                        <label for="zipcode">zip code</label>
+                        <input type="text" id="zipcode" placeholder="enter zip code">
+                    </div>
+                    <div class="box">
+                        <label for="address">your address</label>
+                        <input type="text" id="address" placeholder="enter your address">
+                    </div>
+                </div>
+                <div id="error-message">
+
+                </div>
+                <button type="submit">book order</button>
+            </form>
+        </div>
+
+        <div class="video-box">
+            <video muted loop autoplay>
+                <source src="videos/video2.mp4">
+            </video>
+            <div class="text">
+                <h4 class="heading">
+                    capture every moment perfectly
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos rerum quis minima numquam? Voluptatem, quam.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- book order section ends hare  -->
+
+
+    <!-- footer section starts hare  -->
+
+    <footer>
+        <div class="about-us">
+            <div class="logo">
+                <img src="images/logo-2.png" alt="">
+            </div>
+
+            <p class="paragraph">
+                &copy; 2024 <span>astha studio</span> all right reserved.
+            </p>
+            
+            <div class="icons">
+                <div class="icon">
+                    <a href="#"><i class="ai-facebook-fill"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="#"><i class="ai-twitter-fill"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="#"><i class="ai-linkedin-fill"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="links">
+            <h4>about us</h4>
+
+            <a href="blogs.html">blogs</a>
+            <a href="contact.html">contact us</a>
+            <a href="about-us.html">about us</a>
+        </div>
+        <div class="links">
+            <h4>legal</h4>
+
+            <a href="terms.html">terms</a>
+            <a href="policy.html">policy</a>
+        </div>
+        <div class="links">
+            <h4>contact info</h4>
+
+            <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, quis!
+            </p>
+
+            <a href="#"><i class="ai-phone"></i> +1 (123) 456-7890</a>
+            <a href="#"><i class="ai-envelope"></i> contact@astha.studio</a>
+            <a href="#"><i class="ai-location"></i> 123 photography lane, imaginetown, country 45678</a>
+        </div>
+    </footer>
+
+    <!-- footer section ends hare  -->
+
+
+
+
+
+
+
+    <!-- gsap cdn linked hare  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- gsap scroll trigger cdn linked hare  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- book order js linked hare  -->
+    <script src="order.js"></script>
+
+    <!-- main js linked hare  -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

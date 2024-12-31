@@ -1,0 +1,45 @@
+.service {
+    overflow: hidden;
+}
+
+.service .box{
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+.demo .video {
+    transform: translateX(-200px);
+    opacity: 0;
+}
+
+.demo .box :is(.content > *, .button) {
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+.home-gallery .container .container-box {
+    overflow: hidden;
+}
+
+.home-gallery :is(.container .container-box h2, .container .content) {
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+.home-gallery .container .gallery .box {
+    opacity: 0;
+}
+
+.feedback .text :is(h4, p) {
+    transform: translateY(50px);
+    opacity: 0;
+}
+
+.feedback .feedback-card {
+    opacity: 0;
+}
+
+footer :is(.about-us, .links) {
+    transform: translateX(-100px);
+    opacity: 0;
+}
